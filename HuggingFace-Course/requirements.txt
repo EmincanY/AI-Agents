@@ -1,0 +1,12 @@
+markdownify
+smolagents
+requests
+duckduckgo_search
+pandas
+pytz
+wikipedia-api
+newsapi-python
+forex-python
+sympy
+python-dotenv
+smolagents[gradio]
