@@ -17,18 +17,21 @@ tags:
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-# HuggingFace Course Project
+# AI Agent with SmolaGents
 
-This project is an implementation of various Natural Language Processing (NLP) tasks and models using HuggingFace's Transformers library. It features a Gradio-based user interface for easy interaction with different NLP models and functionalities.
+This project implements an AI agent using the SmolaGents library, featuring various custom tools for different functionalities. The agent is equipped with a Gradio UI for easy interaction and uses a HuggingFace endpoint for inference.
 
 ## Features
 
-- Text Generation
-- Sentiment Analysis
-- Named Entity Recognition
-- Question Answering
-- Text Summarization
-- Translation
+- Weather information
+- Currency conversion
+- News headlines
+- Wikipedia summaries
+- Math expressions
+- Password generation
+- Time zone conversion
+- Web search (DuckDuckGo)
+- Webpage visiting
 - Interactive UI with Gradio
 
 ## Setup
@@ -47,6 +50,7 @@ pip install -r requirements.txt
 3. Set up your `.env` file with necessary API keys:
 ```
 HUGGINGFACE_API_KEY=your_huggingface_api_key
+NEWS_API_KEY=your_news_api_key
 ```
 
 4. Run the application:
@@ -56,21 +60,21 @@ python app.py
 
 ## Project Structure
 
-- `app.py`: Main application file
+- `app.py`: Main application file with agent configuration
 - `Gradio_UI.py`: Gradio interface implementation
-- `tools/`: Directory containing model implementations and utilities
-- `prompts.yaml`: Configuration file for various model prompts
+- `tools/`: Directory containing custom tool implementations
+- `prompts.yaml`: System prompts and templates for the agent
 - `agent.json`: Agent configuration and settings
 
 ## Usage
 
 The application provides a web interface where you can:
-- Select different NLP tasks
-- Choose from various pre-trained models
-- Input your text and get instant results
-- Customize model parameters
-- View and compare results
+- Interact with the AI agent through natural language
+- Access various tools and functionalities
+- Get real-time responses for different tasks
+- View conversation history
+- Customize agent parameters
 
 ## Author
 
-This project was created by Emincan Yilmaz for learning purposes. It serves as a practical implementation of HuggingFace's Transformers library and demonstrates various NLP capabilities.
+This project was created by Emincan Yilmaz for learning purposes. It demonstrates the implementation of AI agents using the SmolaGents library and showcases various tool integrations and capabilities.

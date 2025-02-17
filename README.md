@@ -1,6 +1,6 @@
 # AI-AGENTS
 
-This repository contains a collection of AI projects focusing on different aspects of artificial intelligence, natural language processing, and machine learning. Each project demonstrates various implementations and use cases of AI technologies.
+This repository contains a collection of AI projects focusing on different aspects of artificial intelligence, agent systems, and tool integration. Each project demonstrates various implementations and use cases of AI technologies.
 
 ## Projects
 
@@ -11,11 +11,12 @@ A custom AI agent implementation using Langchain framework, featuring:
 - Weather, news, currency conversion, and more functionalities
 - [Learn more](./Langchain-Agent/README.md)
 
-### 2. HuggingFace Course
-A comprehensive NLP project using HuggingFace's Transformers library:
-- Various NLP tasks implementation
+### 2. SmolaGents Agent
+A comprehensive AI agent implementation using the SmolaGents library:
+- Multiple integrated tools and functionalities
 - Interactive Gradio interface
-- Multiple pre-trained model support
+- Weather, news, web search, and more features
+- HuggingFace endpoint integration
 - [Learn more](./HuggingFace-Course/README.md)
 
 ## Getting Started
@@ -26,14 +27,15 @@ Each project has its own setup instructions and requirements. Please refer to th
 
 - Python
 - Langchain
-- HuggingFace Transformers
+- SmolaGents
 - Gradio
 - OpenAI
+- HuggingFace Endpoints
 - Various API integrations
 
 ## Author
 
-These projects were created by Emincan Yilmaz for learning and demonstration purposes. They showcase different approaches to AI implementation and serve as practical examples of various AI technologies and frameworks.
+These projects were created by Emincan Yilmaz for learning and demonstration purposes. They showcase different approaches to AI agent implementation using various frameworks (Langchain and SmolaGents) and serve as practical examples of tool integration and agent capabilities.
 
 ## License
 
