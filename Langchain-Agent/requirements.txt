@@ -1,0 +1,14 @@
+langchain
+langchain-openai
+langchain-community 
+gradio
+python-dotenv
+requests
+duckduckgo-search
+pandas
+pytz
+wikipedia-api
+newsapi-python
+sympy
+beautifulsoup4
+html5lib 
