@@ -44,3 +44,7 @@ python app.py
 - `tools/`: Directory containing custom tool implementations
 - `gradio_ui.py`: Gradio interface implementation
 - `prompts.py`: System prompts and templates for the agent 
+
+## Author
+
+This project was created by Emincan Yilmaz for learning purposes. It demonstrates the implementation of custom Langchain agents and tools while exploring various AI capabilities. 
